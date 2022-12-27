@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.awesome-subcontainer {
+  width: 1170px;
+  height: 665px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+.awesome-subcontainer h2 {
+  height: 150px;
+  margin: 50px auto 0;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150px;
+  text-transform: uppercase;
+}
+
+.awesome-subcontainer__separator {
+  border: 0.5px solid #EC7979;
+  width: 170px;
+  margin: 0 auto 40px;
+}
+
+.awesome-subcontainer__description {
+  margin: 0 auto 71px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #86878B;
+}
+
+.awesome-subcontainer__articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.awesome-subcontainer__articles article img {
+  width: 170px;
+  height: 170px;
+  display: block;
+  margin: 0 auto;
+}
+
+.awesome-subcontainer__articles h4 {
+  width: 369px;
+  height: 100px;
+  line-height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.awesome-subcontainer__articles h5 {
+  width: 370px;
+  height: 105px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.awesome-subcontainer__articles article:nth-child(2) {
+  margin: 0 25px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .awesome-subcontainer {
+    height: 518px;
+    width: 992px;
+  }
+
+  .awesome-subcontainer h2 {
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .awesome-subcontainer__separator {
+    width: 142px;
+    margin: 0 auto 32px;
+  }
+
+  .awesome-subcontainer__description {
+    width: 983px;
+    font-size: 14px;
+    margin: 0 auto 32px;
+  }
+
+  .awesome-subcontainer__articles article img {
+    width: 147px;
+    height: 147px;
+  }
+
+  .awesome-subcontainer__articles h4 {
+    width: 318px;
+    height: 82px;
+    line-height: 82px;
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+
+  .awesome-subcontainer__articles h5 {
+    width: 318px;
+    height: 64px;
+    font-size: 14px;
+  }
+
+  .awesome-subcontainer__articles article:nth-child(2) {
+    margin: 0 15px;
+  }
+
+  /* Вопрос: почему по размерам всех элементов всё бьет с макетом, но h5 текст чуть вылазит
+  за пределы блока? Это просто недочёты макета или у меня может быть какой-то косяк? */
+}
+
+@media screen and (max-width: 767px) {
+
+  .awesome-subcontainer {
+    height: 1199px;
+    width: 288px;
+  }
+
+  .awesome-subcontainer h2 {
+    height: 120px;
+    line-height: 120px;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .awesome-subcontainer__separator {
+    width: 134px;
+    margin: 0 auto 25px;
+  }
+
+  .awesome-subcontainer__description {
+    height: 30px;
+    width: 288px;
+    font-size: 13px;
+    margin: 0 auto 50px;
+  }
+
+  .awesome-subcontainer__articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .awesome-subcontainer__articles h4 {
+    width: 288px;
+    margin-bottom: 9px;
+  }
+
+  .awesome-subcontainer__articles h5 {
+    width: 288px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .awesome-subcontainer__articles article:nth-child(2) {
+    margin: 0;
+  }
+}

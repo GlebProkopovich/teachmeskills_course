@@ -1,0 +1,133 @@
+.banner-container {
+  width: 100%;
+  height: 442px;
+  background: url("../images/banner.png"), rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.banner-subcontainer {
+  width: 1170px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-subcontainer h2 {
+  height: 150px;
+  line-height: 150px;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+
+.banner-subcontainer__separator {
+  width: 170px;
+  border: 0.5px solid #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.banner-subcontainer h5 {
+  height: 21px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner-subcontainer button {
+  display: block;
+  margin: 73px auto 45px;
+  /* Сделал чуть меньше отступ, чем в макете, чтобы не появлялась лишнее пространство снизу за картинкой */
+  width: 370px;
+  height: 58px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.banner-subcontainer button:hover {
+  text-decoration: underline;
+}
+
+.banner-subcontainer button:active {
+  text-decoration: underline;
+  color: rgba(201, 201, 201);
+}
+
+@media screen and (max-width: 1023px) {
+
+  .banner-container {
+    height: 358px;
+  }
+
+  .banner-subcontainer {
+    width: 992px;
+  }
+
+  .banner-subcontainer h2 {
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+  }
+
+  .banner-subcontainer__separator {
+    width: 142px;
+    margin-bottom: 32px;
+  }
+
+  .banner-subcontainer h5 {
+    font-size: 14px;
+    margin-bottom: 25px;
+    /* Сделал чуть меньше отступ, чем в макете, чтобы не появлялась лишнее пространство снизу за картинкой */
+  }
+
+  .banner-subcontainer button {
+    height: 58px;
+    width: 318px;
+    margin: 0 353px 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-container {
+    height: 358px;
+  }
+
+  .banner-subcontainer {
+    width: 288px;
+  }
+
+  .banner-subcontainer h2 {
+    height: 120px;
+    margin-top: 0;
+  }
+
+  .banner-subcontainer__separator {
+    width: 134px;
+    margin-bottom: 16px;
+  }
+
+  .banner-subcontainer h5 {
+    height: 48px;
+    margin-bottom: 66px;
+  }
+
+  .banner-subcontainer button {
+    width: 287px;
+    height: 50px;
+    margin: 0 auto 52px;
+    /* Сделал чуть меньше отступ, чем в макете, чтобы не появлялась лишнее пространство снизу за картинкой */
+  }
+}

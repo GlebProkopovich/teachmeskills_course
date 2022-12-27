@@ -1,0 +1,14 @@
+{
+  "name": "mycourseproject",
+  "source": "index.html",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "parcel index.html --open --port 3000"
+  },
+  "author": "Gleb Prokopovich",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}

@@ -1,0 +1,40 @@
+header {
+  height: 75px;
+  background: #000;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-subcontainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 170px 0 115px;
+}
+
+.header-subcontainer nav {
+  width: 570px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-subcontainer nav button {
+  color: #fff;
+  border: none;
+  background: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  width: 113.8px;
+  cursor: pointer;
+}
+
+.header-subcontainer nav button:hover {
+  background: #EC7979;
+}
+
+.header-subcontainer nav button:active {
+  background: #AB4949;
+}

@@ -1,0 +1,97 @@
+.customers-container {
+  margin: 100px;
+}
+
+.customers-subcontainer {
+  font-family: 'Raleway', sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.customers-subcontainer h2 {
+  height: 150px;
+  font-size: 36px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  /* line-height: 150px;
+    text-align: center; какой способ выравнивания в данном случае предпочтительней?*/
+}
+
+.customers-subcontainer__separator {
+  width: 170px;
+  border: 0.5px solid #EC7979;
+  margin: 0 auto 40px;
+}
+
+.customers-subcontainer__text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 83px;
+}
+
+.customers-subcontainer__articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers-subcontainer__speech {
+  width: 370px;
+  height: 180px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  color: #86878B;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.customers-subcontainer__polygon {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #E2E2E2;
+  position: relative;
+  left: 70px;
+}
+
+.customers-subcontainer__preview {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 46px;
+}
+
+.customers-subcontainer__personal-info {
+  margin-left: 30px;
+}
+
+.customers-subcontainer div img {
+  width: 70px;
+  height: 70px;
+}
+
+.customers-subcontainer__personal-info h4 {
+  font-style: 'Open Sans', sans-serif;
+  height: 54px;
+  line-height: 54px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.customers-subcontainer__personal-info h5 {
+  font-weight: 400;
+  height: 21px;
+  line-height: 21px;
+  font-size: 18px;
+}

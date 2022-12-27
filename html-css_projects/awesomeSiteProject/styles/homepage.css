@@ -1,0 +1,140 @@
+.homepage-container {
+  height: 1026px;
+  background: url('../images/imagecity.png'), rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.homepage-subcontainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage-subcontainer img {
+  margin-top: 283px;
+}
+
+.homepage-subcontainer h1 {
+  height: 168px;
+  margin: 72.88px 0 55.12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.homepage-subcontainer__separator {
+  width: 170px;
+  border: 0.5px solid #fff;
+  margin-bottom: 42px;
+}
+
+.homepage-subcontainer h5 {
+  width: 270px;
+  height: 42px;
+  margin-bottom: 42px;
+  font-style: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.homepage-subcontainer button {
+  width: 270px;
+  height: 58px;
+  border: 0.5px solid #fff;
+  background: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.homepage-subcontainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 470px;
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 283px;
+  position: relative;
+}
+
+.homepage-subcontainer form h4 {
+  width: 367px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.homepage-subcontainer form h4 span {
+  color: #EC7979;
+}
+
+.homepage-subcontainer form input {
+  border: none;
+  border-bottom: 0.5px solid #bdbdbd;
+  width: 370px;
+  height: calc(19px + 16px + 3px);
+}
+
+.homepage-subcontainer form input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.homepage-subcontainer form input:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+.homepage-subcontainer form button {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  background: #EC7979;
+  border: 0.5px solid #EC7979;
+  border-radius: 0px 0px 10px 10px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 390px;
+}
+
+.homepage-subcontainer button:hover {
+  border: 0.5px solid #EC7979;
+  color: #EC7979;
+}
+
+.homepage-subcontainer button:active {
+  background: #AB4949;
+  border: 0.5px solid #AB4949;
+  color: #fff;
+}
+
+.homepage-subcontainer form button:hover {
+  color: #fff;
+  border: 0.5px solid #AB4949;
+  background: #AB4949;
+}
+
+.homepage-subcontainer form button:active {
+  background: #EC7979;
+  border: 0.5px solid #EC7979;
+  color: #fff;
+}

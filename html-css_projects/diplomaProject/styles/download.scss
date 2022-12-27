@@ -1,0 +1,87 @@
+.download-subcontainer {
+  // @include page-settings(1170px, 230px, 0 auto 114px);
+  margin: 0 auto 114px;
+
+  h3 {
+    height: 70px;
+    @include font(500, 30px);
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  h5 {
+    @include font(700, 18px);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    width: 370px;
+    height: 80px;
+    background: #FF4343;
+    @include font(900, 24px);
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      cursor: pointer;
+      background: #E71414;
+    }
+
+    &:active {
+      background: #FF4343;
+      box-shadow: $button-shadow;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .download-subcontainer {
+    max-width: 984px;
+    // height: 205px;
+    margin: 0 auto 100px;
+
+    h3 {
+      height: 60px;
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    h5 {
+      font-size: 14px;
+      margin-bottom: 45px;
+    }
+
+    button {
+      width: 315px;
+      height: 80px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .download-subcontainer {
+    max-width: 280px;
+
+    h3 {
+      height: 80px;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    h5 {
+      font-size: 13px;
+      margin-bottom: 13px;
+    }
+
+    button {
+      width: 280px;
+    }
+  }
+}

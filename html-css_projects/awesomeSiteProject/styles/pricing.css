@@ -1,0 +1,91 @@
+.pricing-container {
+  margin: 15px;
+  background: #F5F5F5;
+}
+
+.pricing-subcontainer {
+  font-family: 'Raleway', sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.pricing-subcontainer h2 {
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.pricing-subcontainer__separator {
+  width: 170px;
+  border: 0.5px solid #EC7979;
+  margin: 0 auto;
+}
+
+.pricing-subcontainer__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878B;
+  margin: 40px auto 59px;
+}
+
+.pricing-subcontainer__sections {
+  height: 530px;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.pricing-subcontainer__price-info {
+  width: 370px;
+  height: 510px;
+  align-self: flex-end;
+}
+
+.pricing-subcontainer__price-info:nth-of-type(2) {
+  align-self: flex-start;
+  box-shadow: 0 2px 10px #333;
+}
+
+.pricing-subcontainer__price-info h4 {
+  font-family: 'Open Sans', sans-serif;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f5f5f5;
+  text-align: center;
+  background: #333;
+  border: 2px solid #F5F5F5;
+}
+
+.pricing-subcontainer__price-info h3 {
+  height: 100px;
+  line-height: 100px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #f5f5f5;
+  text-align: center;
+  background: #333;
+  border: 2px solid #F5F5F5;
+}
+
+.pricing-subcontainer__price-info h5 {
+  height: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #86878B;
+  text-align: center;
+  background: #fff;
+  border: 2px solid #F5F5F5;
+}
+
+.pricing-subcontainer__price-info h5:first-of-type {
+  color: rgba(255, 255, 255, 0.5);
+  background: #333;
+}

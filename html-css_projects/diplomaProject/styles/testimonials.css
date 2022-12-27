@@ -1,0 +1,16 @@
+.testimonials-container {
+  margin-bottom: 114px;
+}
+.testimonials-container .testimonials-subcontainer {
+  display: grid;
+  grid-template-columns: 740px 1fr;
+  grid-template-rows: 490px;
+  grid-gap: 130px;
+  background: #5C3249;
+}
+.testimonials-container .testimonials-subcontainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=testimonials.css.map */

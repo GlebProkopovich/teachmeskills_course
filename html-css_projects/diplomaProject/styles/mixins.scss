@@ -1,0 +1,15 @@
+@mixin page-settings($width: auto, $height: auto, $margin: 0) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+}
+
+@mixin font($font-weight, $font-size) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+}
+
+@mixin heading-settings($height, $line-height) {
+    height: $height;
+    line-height: $line-height;
+}
