@@ -24,7 +24,7 @@ if (height > width) {
 
 // Task 3
 
-for (let i = 1; i < 20; i++) {
+for (let i = 1; i <= 20; i++) {
   if (i % 3 === 0) console.log(i);
 }
 
@@ -55,9 +55,9 @@ if (userNumber % 3 === 0 && userNumber % 5 === 0) {
 
 userAge = prompt("Напишите ваш возраст", "");
 
-if (userAge >= 16 && userAge < 18) {
+if (userAge >= 16 && userAge <= 18) {
   alert("Можешь выкурить сигаретку, только маме не говори");
-} else if (userAge >= 18) {
+} else if (userAge > 18) {
   alert("Попей пивка");
 } else {
   alert("Пей колу");
@@ -65,11 +65,9 @@ if (userAge >= 16 && userAge < 18) {
 
 // Task 7
 
-let getSideOfTheWorld = prompt("В какую сторону света вы хотели бы отправиться?", "");
+let getSideOfTheWorld = prompt("В какую сторону света вы хотели бы отправиться?").toLowerCase();
 
-let correctedSideOfTheWorld = getSideOfTheWorld.toLowerCase();
-
-switch (correctedSideOfTheWorld) {
+switch (getSideOfTheWorld) {
   case "юг" :
     console.log("На юг пойдешь счастье найдешь");
     break;
@@ -90,26 +88,26 @@ switch (correctedSideOfTheWorld) {
 // Advanced level
 // Task 1
 
-let showUserName = prompt("Напишите ваши имя и фамилию", "");
+let showUserName = prompt("Напишите ваши имя и фамилию");
 
 let spaceIndex = showUserName.indexOf(" ");
 
-alert(`Привет, ${showUserName.charAt(0).toUpperCase() + showUserName.slice(1, spaceIndex).toLowerCase() + " " 
-+ showUserName.charAt(spaceIndex + 1).toUpperCase() + showUserName.slice(spaceIndex + 2).toLowerCase()}!`);
+alert(`Привет, ${showUserName[0].toUpperCase() + showUserName.slice(1, spaceIndex).toLowerCase() + " " 
++ showUserName[(spaceIndex + 1)].toUpperCase() + showUserName.slice(spaceIndex + 2).toLowerCase()}!`);
 
 // Task 2
 
 const greetingToUser = confirm("Последовательно указывайте числа с которыми будут произведены определенные манипуляции, указанные далее");
 
-let startNumber = +prompt("С какого числа начнем?", "");
+let startNumber = +prompt("С какого числа начнем?");
 let minusNumber = +prompt("Сколько отнимем?");
 let plusNumber = +prompt("Сколько прибавим?");
 let multiplyNumber = +prompt("На сколько умножим?");
 let divideNumber = +prompt("На сколько разделить?");
 
-let result = (((startNumber - minusNumber) + plusNumber) * multiplyNumber) / divideNumber;
+let result = (startNumber - minusNumber + plusNumber) * multiplyNumber / divideNumber;
 
-alert(`(((${startNumber} - ${minusNumber}) + ${plusNumber}) * ${multiplyNumber}) / ${divideNumber} = ${result}`);
+alert(`(${startNumber} - ${minusNumber} + ${plusNumber}) * ${multiplyNumber} / ${divideNumber} = ${result}`);
 
 // Task 3
 
