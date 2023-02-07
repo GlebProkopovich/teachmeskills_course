@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(209, 209, 209);
+  font-size: 20px;
+}
+
+.ToDoTextContainers {
+  height: 140px;
+  width: 600px;
+  margin: 15px auto;
+  border-radius: 20px;
+  border: 3px solid #000;
+  position: relative;
+  background-color: rgba(143, 143, 143);
+  margin-top:30px;
+}
+
+.customCheckbox {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  height: 40px;
+  width: 60px;
+}
+
+.toDoText {
+  background-color: #fff;
+  position: absolute;
+  width: 380px;
+  height: 70px;
+  left: 90px;
+  top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:rgba(107, 107, 107);
+  font-weight: bolder;
+}
+
+.cancelButtons {
+  background-color: #fff;
+  position: absolute;
+  width: 380px;
+  height: 70px;
+  left: 90px;
+  top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgba(107, 107, 107);
+  font-weight: bolder;
+}
+
+.dates { 
+  position: absolute;
+  background-color: #fff;
+  width: 100px;
+  height: 35px;
+  left: 480px;
+  top: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: rgba(107, 107, 107);
+  font-size: 20px;
+}
+
+.ToDoTextContainers {
+  height: 140px;
+  width: 600px;
+  margin: 15px auto;
+  border-radius: 20px;
+  border: 3px solid #000;
+  position: relative;
+  margin-top: 30px;
+}
+
+.divContainer {
+  width: 1000px;
+  margin: 40px auto;
+  background-color: rgba(214, 214, 214);
+  border-radius: 30px;
+  border: 3px solid #000;
+}
+
+#divSubcontainer {
+  width: 920px;
+  margin: 25px auto;
+}
+
+.firstButtonsWrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstContainerButtons {
+  width: 140px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background-color: rgba(0, 219, 219);
+  color: rgba(107, 107, 107);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.firstContainerButtons:hover {
+  background-color: rgb(0, 202, 202);
+}
+
+.firstContainerButtons:active {
+  background-color: rgba(0, 219, 219);
+}
+
+.secondButtonsWrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.secondWrapperTexts {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(107, 107, 107);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#secondWrapperTexts {
+  width: 120px;
+}
+
+.showButtons {
+  width: 190px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background-color: rgba(0, 219, 219);
+  color:rgba(107, 107, 107);
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.showButtons:hover {
+  background-color: rgb(0, 202, 202);
+}
+
+.showButtons:active {
+  background-color: rgba(0, 219, 219);
+}
+
+.inputs {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 3px solid #000;
+  text-align: center;
+  font-size: 20px;
+}
+
+.customCheckbox {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  height: 40px;
+  width: 60px;
+}
+
+.toDoText {
+  background-color: #fff;
+  position: absolute;
+  width: 380px;
+  height: 70px;
+  left: 90px;
+  top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:rgba(107, 107, 107);
+  font-weight: bolder;
+}
+
+.cancelButtons {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: rgba(0, 219, 219);
+  border-radius: 10px;
+  border: 3px solid #000;
+  cursor: pointer;
+  left: 520px;
+  top: 10px;
+  font-weight: bolder;
+  color: rgba(107, 107, 107);
+  font-size: 20px;
+}
+
+.cancelButtons:hover {
+  background-color: rgb(0, 202, 202);
+}
+
+.cancelButtons:active {
+  background-color: rgba(0, 219, 219);
+}
+
+.dates {
+  position: absolute;
+  background-origin: #fff;
+  width: 100px;
+  height: 35px;
+  left: 480px;
+  top: 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: rgba(107, 107, 107);
+  font-size: 20px;
+}
+
+.hide {
+  display: none;
+}
