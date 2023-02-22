@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main-container {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+body .main-container .containers {
+  width: 470px;
+  height: 100%;
+  border: 3px solid rgb(0, 76, 83);
+  border-radius: 20px;
+  background-color: rgba(176, 196, 189, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .main-container .containers h1 {
+  margin: 20px 0 0 0;
+  font-size: 25px;
+}
+body .main-container .containers .goods {
+  width: 400px;
+  margin-top: 20px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 17px;
+  grid-row-gap: 40px;
+}
+body .main-container .containers .crypto {
+  text-align: center;
+  font-size: 15px;
+}
+body .main-container .containers .crypto figure p {
+  height: 100px;
+  width: 120px;
+}
+body .main-container .containers .crypto figure p img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=index.css.map */

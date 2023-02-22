@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main-container {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+
+    .containers {
+      width: 470px;
+      height: 100%;
+      border: 3px solid rgb(0, 76, 83);
+      border-radius: 20px;
+      background-color: rgb(176, 196, 189, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        margin: 20px 0 0 0;
+        font-size: 25px;
+      }
+
+      .goods {
+        width: 400px;
+        margin-top: 20px;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 17px;
+        grid-row-gap: 40px;
+      }
+
+      .crypto {
+        text-align: center;
+        font-size: 15px;
+
+        figure {
+          
+          p {
+            height: 100px;
+            width: 120px;
+            
+            img {
+              height: 100%;
+              width: 100%;
+              border-radius: 10%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
