@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "target": "es2020",
+    "removeComments": true,
+    "outFile": "index.js"
+  }
+}
