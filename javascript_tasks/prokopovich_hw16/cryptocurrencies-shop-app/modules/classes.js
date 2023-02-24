@@ -1,18 +1,19 @@
 'use strict';
 
-import { create, selectOne, selectAll, getCryptosToBuy } from "./utils.js";
+import { create } from "./utils.js";
 
 class Crypto {
-  constructor(id, title, imgSrc) {
+  constructor(id, title, imgSrc, amount) {
     this.id = id;
     this.title = title;
     this.imgSrc = imgSrc;
+    this.amount = amount;
   }
 }
 
 class CryptoEl extends Crypto {
-  constructor(id, title, imgSrc) {
-    super(id, title, imgSrc);
+  constructor(id, title, imgSrc, amount) {
+    super(id, title, imgSrc, amount);
 
     const divEl = create('div');
     const figureEl = create('figure');
@@ -25,12 +26,13 @@ class CryptoEl extends Crypto {
     divEl.append(figureEl);
     figureEl.append(imgParagraph);
     imgParagraph.append(imgEl);
-
-    const goodsInShop = selectOne('#goodsInShop');
-    goodsInShop.append(divEl);
-
+    
     divEl.append(this.title);
+    this.amount && divEl.append(` (${this.amount})`);
     divEl.id = this.id;
+    divEl.title = this.title;
+    divEl.imgSrc = this.imgSrc;
+    return divEl;
   }
 }
 
