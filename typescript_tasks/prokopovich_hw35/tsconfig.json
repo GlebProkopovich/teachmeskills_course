@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "removeComments": true,
+    "outDir": "js",
+    "outFile": "index.js",
+    "strict": true,
+  }
+}
