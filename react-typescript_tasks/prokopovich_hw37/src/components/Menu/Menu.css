@@ -1,0 +1,125 @@
+.Menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 110px;
+  z-index: 1;
+  transform: translate(-100%);
+  transition: all 0.5s ease;
+  background-color: rgb(229, 229, 229);
+}
+
+.Menu.open {
+  transform: translate(0);
+}
+
+.Menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu-items > a {
+  width: 300px;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(0, 36, 125, 0.9);
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.2s ease;
+}
+
+.Menu-items > a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: rgba(9, 10, 100, 0.7);
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.Menu.open > .Menu-items > a:active {
+  background-color: rgb(229, 229, 229);
+}
+
+.Menu.open > .Menu-items > a:nth-child(1) {
+  animation: animate ease-in-out;
+  animation-duration: 0.7s;
+}
+
+.Menu.open > .Menu-items > a:nth-child(2) {
+  animation: animate ease-in-out;
+  animation-duration: 0.85s;
+}
+
+.Menu.open > .Menu-items > a:nth-child(3) {
+  animation: animate ease-in-out;
+  animation-duration: 1s;
+}
+
+.Menu.open > .Menu-items > a:nth-child(4) {
+  animation: animate ease-in-out;
+  animation-duration: 1.15s;
+}
+
+.Menu.open > .Menu-items > a:nth-child(5) {
+  animation: animate ease-in-out;
+  animation-duration: 1.3s;
+}
+
+.btn-close {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 36, 125, 0.9);
+  margin-left: 10px;
+  transition: all 0.2s ease;
+}
+
+.btn-close:hover {
+  background: rgba(9, 10, 100, 0.9);
+}
+
+.btn-close:active {
+  background-color: rgba(0, 36, 125, 0.9);
+}
+
+.bottom-pannel {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bottom-pannel > .empty-space {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 36, 125, 0.9);
+  border-right: 0.1px solid rgb(255, 255, 255, 0.4);
+  border-left: 0.1px solid rgb(255, 255, 255, 0.4);
+}
+
+.additional-signIn {
+  width: 200px;
+  border-top: 0.1px solid rgb(255, 255, 255, 0.4);
+  margin: -1px 0 0 10px;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0%;
+    transform: translateY(90px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

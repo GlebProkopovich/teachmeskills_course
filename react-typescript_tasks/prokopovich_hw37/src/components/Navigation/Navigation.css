@@ -1,0 +1,30 @@
+.nav-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  display: relative;
+}
+
+.btn-menu {
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  height: 80px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 36, 125, 0.9);
+  margin-left: 10px;
+  transition: all 0.2s ease;
+}
+
+.btn-menu:hover {
+  background: rgba(9, 10, 100, 0.9);
+}
+
+.btn-menu:active {
+  background-color: rgba(0, 36, 125, 0.9);
+}

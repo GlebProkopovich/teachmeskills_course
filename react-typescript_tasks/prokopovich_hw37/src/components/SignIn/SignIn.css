@@ -1,0 +1,45 @@
+.SignIn-container {
+  min-width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: rgba(0, 36, 125, 0.9);
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
+
+.SignIn-container:hover {
+  background: rgba(9, 10, 100, 0.9);
+}
+
+.SignIn-container:active {
+  background-color: rgba(0, 36, 125, 0.9);
+}
+
+.SignIn-container > h4 {
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(64, 91, 213, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.SignIn-container > h3 {
+  font-size: 16px;
+}
+
+.SignIn-container > .bigger-fontsize {
+  font-size: 20px;
+}
+
+.SignIn-container > .hide {
+  display: none;
+}

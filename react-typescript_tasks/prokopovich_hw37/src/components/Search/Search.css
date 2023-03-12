@@ -1,0 +1,20 @@
+.search {
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.1px solid rgb(255, 255, 255, 0.4);
+  cursor: pointer;
+  background-color: rgba(0, 36, 125, 0.9);
+  transition: all 0.2s ease;
+}
+
+.search:hover {
+  background: rgba(9, 10, 100, 0.9);
+}
+
+.search:active {
+  background-color: rgba(0, 36, 125, 0.9);
+}
