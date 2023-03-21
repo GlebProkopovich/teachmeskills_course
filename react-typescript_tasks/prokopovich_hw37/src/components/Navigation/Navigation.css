@@ -3,8 +3,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-top: 10px;
-  display: relative;
+  background-color: rgb(229, 229, 229, 1);
 }
 
 .btn-menu {
@@ -17,7 +16,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 36, 125, 0.9);
-  margin-left: 10px;
   transition: all 0.2s ease;
 }
 

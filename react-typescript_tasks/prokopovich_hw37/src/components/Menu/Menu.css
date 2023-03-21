@@ -3,20 +3,23 @@
   flex-direction: column;
   position: absolute;
   width: 100%;
-  top: 110px;
-  z-index: 1;
+  height: 450px;
+  top: 80px;
+  z-index: 2;
   transform: translate(-100%);
   transition: all 0.5s ease;
-  background-color: rgb(229, 229, 229);
+  background-color: rgb(229, 229, 229, 1);
 }
 
 .Menu.open {
   transform: translate(0);
+  z-index: 2;
 }
 
 .Menu-items {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .Menu-items > a {
@@ -82,7 +85,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 36, 125, 0.9);
-  margin-left: 10px;
   transition: all 0.2s ease;
 }
 
@@ -110,7 +112,7 @@
 .additional-signIn {
   width: 200px;
   border-top: 0.1px solid rgb(255, 255, 255, 0.4);
-  margin: -1px 0 0 10px;
+  margin: -1px 0 0 0;
 }
 
 @keyframes animate {

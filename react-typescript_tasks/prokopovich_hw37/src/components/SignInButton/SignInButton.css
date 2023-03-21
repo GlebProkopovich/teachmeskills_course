@@ -1,4 +1,4 @@
-.SignIn-container {
+.SignInButton-container {
   min-width: 200px;
   height: 80px;
   display: flex;
@@ -8,19 +8,18 @@
   font-size: 12px;
   cursor: pointer;
   background-color: rgba(0, 36, 125, 0.9);
-  margin-right: 10px;
   transition: all 0.2s ease;
 }
 
-.SignIn-container:hover {
+.SignInButton-container:hover {
   background: rgba(9, 10, 100, 0.9);
 }
 
-.SignIn-container:active {
+.SignInButton-container:active {
   background-color: rgba(0, 36, 125, 0.9);
 }
 
-.SignIn-container > h4 {
+.SignInButton-container > h4 {
   margin-right: 8px;
   width: 50px;
   height: 50px;
@@ -32,14 +31,14 @@
   font-size: 16px;
 }
 
-.SignIn-container > h3 {
+.SignInButton-container > h3 {
   font-size: 16px;
 }
 
-.SignIn-container > .bigger-fontsize {
+.SignInButton-container > .bigger-fontsize {
   font-size: 20px;
 }
 
-.SignIn-container > .hide {
+.SignInButton-container > .hide {
   display: none;
 }

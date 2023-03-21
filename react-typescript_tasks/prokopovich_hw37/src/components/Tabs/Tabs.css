@@ -1,10 +1,12 @@
 .Tabs {
-  margin: 550px 0 100px 0;
+  width: 1350px;
+  margin-top: 50px;
+  margin: 50px 0 50px 0;
 }
 
 .Tabs > h2 {
   color: rgb(92, 92, 92);
-  margin: 0 0 20px 50px;
+  margin: 0 0 20px 70px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -33,10 +35,7 @@
 }
 
 .Tab > button:nth-of-type(1) {
-  position: relative;
-  top: 4px;
   border: none;
-  border-bottom: 4px solid rgb(92, 92, 92);
 }
 
 .hover {
@@ -49,6 +48,11 @@
 
 .Tab > .disabled {
   color: rgb(128, 128, 128);
+}
+
+.tab-container {
+  margin-left: 50px;
+  padding-right: 30px;
 }
 
 .tab-subcontainer {

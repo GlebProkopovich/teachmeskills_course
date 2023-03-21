@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Menu from '../Menu/Menu';
 import Searchbar from '../Searchbar/Searchbar';
 import Search from '../Search/Search';
-import SignIn from '../SignIn/SignIn';
+import SignIn from '../SignInButton/SignInButton';
 import './Navigation.css';
 
 const Nav: React.FC = () => {

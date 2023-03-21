@@ -1,0 +1,12 @@
+.postList-container {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+
+  .left-side {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

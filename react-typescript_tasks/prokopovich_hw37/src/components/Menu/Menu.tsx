@@ -1,7 +1,7 @@
 import React from 'react';
 import { menuItems } from './MenuItems';
 import Search from '../Search/Search';
-import SignIn from '../SignIn/SignIn';
+import SignIn from '../SignInButton/SignInButton';
 import './Menu.css';
 
 interface IMenu {
